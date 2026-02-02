@@ -1,49 +1,63 @@
-# built application files
-*.apk
-*.ap_
 
-# files for the dex VM
-*.dex
-
-# Java class files
-*.class
-
-# generated files
-bin/
-gen/
-out/
+# Python ignorables
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
-generated/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Local configuration file (sdk path, etc)
-local.properties
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+venv/
+.env
+.env.*
 
-# Eclipse project files
-.classpath
-.project
+# Ignore all directories containing pyvenv.cfg
+**/pyvenv.cfg
+**/*/pyvenv.cfg
 
-# Windows thumbnail db
-.DS_Store
-
-# IDEA/Android Studio project files, because
-# the project can be imported from settings.gradle.kts
-*.iml
-.idea/*
-!.idea/copyright
-# Keep the code styles.
-!/.idea/codeStyles
-/.idea/codeStyles/*
-!/.idea/codeStyles/Project.xml
-!/.idea/codeStyles/codeStyleConfig.xml
-
-# Gradle cache
-.gradle
-
-# Sandbox stuff
-_sandbox
-
-# Android Studio captures folder
-captures/
-
-# Kotlin
-.kotlin
+# Node.js ignorables
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+.env
+.env.test
+.cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.file_activity_report.json
+*.db
+core.*
+.core
+*.log
+post_process_status.lock
